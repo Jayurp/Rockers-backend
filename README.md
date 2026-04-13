@@ -1,6 +1,7 @@
 # Backend API
 
 A small Node.js + Express backend with an MVC-style structure for user authentication and profile updates.
+
 NOTE: This project does not use .env file for the simplicity of the project and all the important variables are hardcoded.
 
 This project uses:
