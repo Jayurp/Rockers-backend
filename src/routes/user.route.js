@@ -5,7 +5,7 @@ const verifyToken = require("../middleware/verifyToken").verifyToken;
 const userController = require("../controllers/index").userController;
 const userValidations = require("../inputValidations/user.validations");
 
-// Public routes, no need to verify token
+
 router.put(
   "/update-user",
   validate(userValidations.updateUser),
